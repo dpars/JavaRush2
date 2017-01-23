@@ -7,11 +7,14 @@ package com.javarush.test.level06.lesson05.task02;
 public class Cat
 {
     //напишите тут ваш код
-
+    protected void finalize() throws Throwable {
+        System.out.println("Объект был удален");
+    }
 }
-
 class Dog
 {
     //напишите тут ваш код
-
+    protected void finalize() throws Throwable {
+        System.out.println("Объект 2 был удален");
+    }
 }
