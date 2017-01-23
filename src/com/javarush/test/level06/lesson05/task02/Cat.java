@@ -7,7 +7,7 @@ package com.javarush.test.level06.lesson05.task02;
 public class Cat
 {
     //напишите тут ваш код
-    int x =123;
+
 }
 
 class Dog
